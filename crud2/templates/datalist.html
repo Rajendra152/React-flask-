@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+{% block title %} Read Data {% endblock %}
+
+{% block content%}
+{% for employee in employees %}
+<h3> {{employee}} </h3>
+{% endfor %}
+
+{% endblock %}
